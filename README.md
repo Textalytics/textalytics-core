@@ -16,3 +16,28 @@ This module is availabe in pypi
 Usage:
 
 `pip install textalytics-core`
+
+# Local development
+
+You will need Python 3.9+ installed. This project uses `poetry` to manage dependencies.
+
+`poetry` can be installed with `brew` on a Mac.
+
+* Get latest code from github
+* Create a virtual environment
+
+`python -m venv venv`
+
+* Initialize poetry and install dependencies
+
+`poetry init`
+
+`poetry install`
+
+* At this point you will be able to build
+
+`poetry build`
+
+* Tests can be run with 
+
+`poetry run test`
