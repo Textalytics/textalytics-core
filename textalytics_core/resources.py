@@ -5,6 +5,8 @@ from pydantic import BaseModel
 class TextInput(BaseModel):
     source_text: str
     source_language: Optional[str] = "en"
+    provider: Optional[str]
+    model_name: Optional[str]
 
 
 class Entity(BaseModel):
