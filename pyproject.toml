@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "textalytics-core"
-version = "0.1.1"
+version = "0.1.2"
 description = "core textalytics capabilities"
 authors = ["Manoj Bharadwaj <manoj@cloudcosmos.tech>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.8"
 pydantic = "^1.8.2"
 
 [tool.poetry.dev-dependencies]
