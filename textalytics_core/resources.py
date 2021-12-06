@@ -1,9 +1,9 @@
 from typing import Optional, List
-from pydantic import BaseModel
-
+from pydantic import BaseModel, Field
+import config
 
 class TextInput(BaseModel):
-    source_text: str
+    source_text: str = Field(max_length=config.Max_Length)
     source_language: Optional[str] = "en"
     provider: Optional[str]
     model_name: Optional[str]
