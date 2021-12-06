@@ -11,7 +11,7 @@ It will also provide the API implementation to enable self-hosting on cloud or o
 
 # PyPi package
 
-This module is availabe in pypi
+This module is available in pypi
 
 Usage:
 
